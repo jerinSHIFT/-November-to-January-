@@ -1,34 +1,24 @@
 {
-<<<<<<< HEAD
-  "name": "(date-10-11-25-express)",
-=======
-  "name": "my-first-api",
->>>>>>> da612e7fb4ec39ec7b1a3504951328c22b6a1d3c
+  "name": "(date-11-11-25development-architecture)",
   "version": "1.0.0",
-  "description": "",
+  "description": "Encryption–decryption process",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
-=======
-    "strat": "node index.js",
-    "dev": "nodemon index.js",
->>>>>>> da612e7fb4ec39ec7b1a3504951328c22b6a1d3c
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-<<<<<<< HEAD
-    "express": "^5.1.0"
-=======
-    "cookie-parser": "^1.4.7",
-    "espress": "^0.0.0",
-    "express": "^5.1.0"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
->>>>>>> da612e7fb4ec39ec7b1a3504951328c22b6a1d3c
   }
 }
